@@ -1,0 +1,32 @@
+{
+  "name": "postnl-design-tokens-poc",
+  "version": "0.0.1",
+  "description": "A proof of concept for using design tokens for PostNL. Design tokens are synced to Figma with the Figma tokens plugin, and converted to CSS variables through style dictionary.",
+  "main": "build.js",
+  "scripts": {
+    "build": "npx token-transformer tokens/tokens.json tokens/input.json core,semantic core && node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzilverberg/postnl-design-tokens-poc.git"
+  },
+  "keywords": [
+    "tokens",
+    "poc",
+    "figma",
+    "style-dictionary",
+    "css",
+    "variables"
+  ],
+  "author": "Maarten Zilverberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mzilverberg/postnl-design-tokens-poc/issues"
+  },
+  "homepage": "https://github.com/mzilverberg/postnl-design-tokens-poc#readme",
+  "devDependencies": {
+    "async": "^3.2.4",
+    "style-dictionary": "^3.7.1",
+    "token-transformer": "0.0.23"
+  }
+}

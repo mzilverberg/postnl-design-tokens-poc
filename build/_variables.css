@@ -1,0 +1,86 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 22 Jun 2022 09:23:25 GMT
+ */
+
+:root {
+  --color-heading: #001a73;
+  --color-heading-brand: #ed7000;
+  --color-heading-subtle: #27324c;
+  --color-text: #27324c;
+  --color-text-subtle: #66728a;
+  --color-text-inverse: #d4d9e3;
+  --color-cta: #3440b6;
+  --color-cta-subtle: #27324c;
+  --color-cta-hover: #3440b6;
+  --color-cta-pressed: #001a73;
+  --color-surface: #ffffff;
+  --color-background: #f3f4f7;
+  --color-background-variant: #f1f2f9;
+  --color-background-brand: #ed7000;
+  --color-background-brand-subtle: #ff8d00;
+  --color-background-strong: #66728a;
+  --color-background-subtle: #f9f5ef;
+  --color-background-informative: #ebf8fd;
+  --color-background-positive: #ebf7ef;
+  --color-background-warning: #fff9ec;
+  --color-background-negative: #fcebef;
+  --color-border: #8a94a8;
+  --color-border-subtle: #d4d9e3;
+  --color-border-cta: #3440b6;
+  --color-border-informative: #8dd4f1;
+  --color-border-positive: #7bc997;
+  --color-border-warning: #fbc54f;
+  --color-border-negative: #ea7b97;
+  --color-border-hover: #3440b6;
+  --color-border-pressed: #001a73;
+  --color-border-selected: #ed7000;
+  --color-border-error: #d70036;
+  --color-outline-focus: #3440b6;
+  --color-icon: #3440b6;
+  --color-icon-brand: #ed7000;
+  --color-icon-subtle: #8a94a8;
+  --color-icon-informative: #009ee3;
+  --color-icon-positive: #3aaa35;
+  --color-icon-warning: #fbc54f;
+  --color-icon-negative: #d70036;
+  --color-icon-hover: #3440b6;
+  --color-icon-pressed: #001a73;
+  --color-icon-selected: #ed7000;
+  --color-prominent: #d70036;
+  --text-heading-xxl: [object Object];
+  --text-heading-xl: [object Object];
+  --text-heading-l: [object Object];
+  --text-heading-m: [object Object];
+  --text-heading-s: [object Object];
+  --text-heading-xs: [object Object];
+  --text-body-l: [object Object];
+  --text-body-m: [object Object];
+  --text-body-s: [object Object];
+  --text-label: [object Object];
+  --text-cta: [object Object];
+  --spacing-inner-xxs: 2;
+  --spacing-inner-xs: 4;
+  --spacing-inner-s: 8;
+  --spacing-inner-m: 12;
+  --spacing-inner-l: 16;
+  --spacing-inner-xl: 24;
+  --spacing-inner-xxl: 32;
+  --spacing-inner-3xl: 40;
+  --spacing-inner-4xl: 56;
+  --spacing-outer-xs: 16;
+  --spacing-outer-s: 24;
+  --spacing-outer-m: 40;
+  --spacing-outer-l: 56;
+  --spacing-outer-xl: 88;
+  --icon-size-s: 16;
+  --icon-size-m: 24;
+  --icon-size-l: 40;
+  --illustration-size-s: 56;
+  --illustration-size-m: 80;
+  --illustration-size-l: 88;
+  --illustration-size-xl: 96;
+  --illustration-size-xxl: 120;
+  --medium-illustration-size-s: 204;
+  --medium-illustration-size-m: 240;
+}
