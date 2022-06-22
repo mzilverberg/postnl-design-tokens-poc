@@ -4,3 +4,9 @@ It's aimed to tackle questions about the usage of design tokens stored centrally
 
 ## Tools
 - [Figma Tokens plugin](https://www.jansix.at/resources/figma-tokens)
+
+## Getting started
+Tokens are automatically converted to CSS variables through a GitHub action that's running after each push. In order to manually generate CSS variables from the tokens, run the following script:
+```
+npm run build
+```
