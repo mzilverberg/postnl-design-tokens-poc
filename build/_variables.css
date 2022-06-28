@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 22 Jun 2022 13:26:48 GMT
+ * Generated on Tue, 28 Jun 2022 11:39:46 GMT
  */
 
 :root {
@@ -136,28 +136,28 @@
   --text-body-cta-paragraph-spacing: 0;
   --text-body-cta-text-decoration: none;
   --text-body-cta-text-case: none;
-  --spacing-inner-xxs: 2;
-  --spacing-inner-xs: 4;
-  --spacing-inner-s: 8;
-  --spacing-inner-m: 12;
-  --spacing-inner-l: 16;
-  --spacing-inner-xl: 24;
-  --spacing-inner-xxl: 32;
-  --spacing-inner-3-xl: 40;
-  --spacing-inner-4-xl: 56;
-  --spacing-outer-xs: 16;
-  --spacing-outer-s: 24;
-  --spacing-outer-m: 40;
-  --spacing-outer-l: 56;
-  --spacing-outer-xl: 88;
-  --size-icon-s: 16;
-  --size-icon-m: 24;
-  --size-icon-l: 40;
-  --size-illustration-s: 56;
-  --size-illustration-m: 80;
-  --size-illustration-l: 88;
-  --size-illustration-xl: 96;
-  --size-illustration-xxl: 120;
-  --size-medium-illustration-s: 204;
-  --size-medium-illustration-m: 240;
+  --spacing-inner-xxs: 2px;
+  --spacing-inner-xs: 4px;
+  --spacing-inner-s: 8px;
+  --spacing-inner-m: 12px;
+  --spacing-inner-l: 16px;
+  --spacing-inner-xl: 24px;
+  --spacing-inner-xxl: 32px;
+  --spacing-inner-3-xl: 40px;
+  --spacing-inner-4-xl: 56px;
+  --spacing-outer-xs: 16px;
+  --spacing-outer-s: 24px;
+  --spacing-outer-m: 40px;
+  --spacing-outer-l: 56px;
+  --spacing-outer-xl: 88px;
+  --size-icon-s: 16px;
+  --size-icon-m: 24px;
+  --size-icon-l: 40px;
+  --size-illustration-s: 56px;
+  --size-illustration-m: 80px;
+  --size-illustration-l: 88px;
+  --size-illustration-xl: 96px;
+  --size-illustration-xxl: 120px;
+  --size-medium-illustration-s: 204px;
+  --size-medium-illustration-m: 240px;
 }
