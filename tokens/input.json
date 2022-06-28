@@ -618,74 +618,74 @@
   "Spacing": {
     "Inner": {
       "XXS": {
-        "value": 2,
+        "value": "2px",
         "description": "",
         "type": "spacing"
       },
       "XS": {
-        "value": 4,
+        "value": "4px",
         "description": "",
         "type": "spacing"
       },
       "S": {
-        "value": 8,
+        "value": "8px",
         "description": "",
         "type": "spacing"
       },
       "M": {
-        "value": 12,
+        "value": "12px",
         "description": "",
         "type": "spacing"
       },
       "L": {
-        "value": 16,
+        "value": "16px",
         "description": "",
         "type": "spacing"
       },
       "XL": {
-        "value": 24,
+        "value": "24px",
         "description": "",
         "type": "spacing"
       },
       "XXL": {
-        "value": 32,
+        "value": "32px",
         "description": "",
         "type": "spacing"
       },
       "3XL": {
-        "value": 40,
+        "value": "40px",
         "description": "",
         "type": "spacing"
       },
       "4XL": {
-        "value": 56,
+        "value": "56px",
         "description": "",
         "type": "spacing"
       }
     },
     "Outer": {
       "XS": {
-        "value": 16,
+        "value": "16px",
         "description": "",
         "type": "spacing"
       },
       "S": {
-        "value": 24,
+        "value": "24px",
         "description": "",
         "type": "spacing"
       },
       "M": {
-        "value": 40,
+        "value": "40px",
         "description": "",
         "type": "spacing"
       },
       "L": {
-        "value": 56,
+        "value": "56px",
         "description": "",
         "type": "spacing"
       },
       "XL": {
-        "value": 88,
+        "value": "88px",
         "description": "",
         "type": "spacing"
       }
@@ -694,47 +694,47 @@
   "Size": {
     "Icon": {
       "S": {
-        "value": 16,
+        "value": "16px",
         "type": "sizing"
       },
       "M": {
-        "value": 24,
+        "value": "24px",
         "type": "sizing"
       },
       "L": {
-        "value": 40,
+        "value": "40px",
         "type": "sizing"
       }
     },
     "Illustration": {
       "S": {
-        "value": 56,
+        "value": "56px",
         "type": "sizing"
       },
       "M": {
-        "value": 80,
+        "value": "80px",
         "type": "sizing"
       },
       "L": {
-        "value": 88,
+        "value": "88px",
         "type": "sizing"
       },
       "XL": {
-        "value": 96,
+        "value": "96px",
         "type": "sizing"
       },
       "XXL": {
-        "value": 120,
+        "value": "120px",
         "type": "sizing"
       }
     },
     "Medium-Illustration": {
       "S": {
-        "value": 204,
+        "value": "204px",
         "type": "sizing"
       },
       "M": {
-        "value": 240,
+        "value": "240px",
         "type": "sizing"
       }
     }
