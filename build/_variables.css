@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 28 Jun 2022 08:28:00 GMT
+ * Generated on Tue, 28 Jun 2022 13:31:21 GMT
  */
 
 :root {
@@ -143,8 +143,8 @@
   --spacing-inner-l: 16;
   --spacing-inner-xl: 24;
   --spacing-inner-xxl: 32;
-  --spacing-inner-3-xl: 40;
-  --spacing-inner-4-xl: 56;
+  --spacing-inner-3xl: 40;
+  --spacing-inner-4xl: 56;
   --spacing-outer-xs: 16;
   --spacing-outer-s: 24;
   --spacing-outer-m: 40;
