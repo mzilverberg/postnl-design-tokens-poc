@@ -26,6 +26,7 @@
   "homepage": "https://github.com/mzilverberg/postnl-design-tokens-poc#readme",
   "devDependencies": {
     "async": "^3.2.4",
+    "hex-to-rgba": "^2.0.1",
     "style-dictionary": "^3.7.1",
     "token-transformer": "0.0.23"
   }
