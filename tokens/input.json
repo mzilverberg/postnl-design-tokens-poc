@@ -34,7 +34,7 @@
         "type": "color"
       }
     },
-    "CTA": {
+    "Link": {
       "Default": {
         "value": "#3440b6",
         "description": "#3440b6",
@@ -111,6 +111,44 @@
         "value": "#fcebef",
         "description": "#fcebef",
         "type": "color"
+      },
+      "Button": {
+        "Primary": {
+          "Default": {
+            "value": "#3440b6",
+            "type": "color",
+            "description": "#3440b6"
+          },
+          "Pressed": {
+            "value": "#001a73",
+            "type": "color",
+            "description": "#001a73"
+          }
+        },
+        "Secondary": {
+          "Default": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "#ffffff"
+          },
+          "Pressed": {
+            "value": "#ffffff",
+            "type": "color",
+            "description": "#ffffff"
+          }
+        },
+        "Tertiary": {
+          "Default": {
+            "value": "#ffffff00",
+            "type": "color",
+            "description": "Transparent"
+          },
+          "Pressed": {
+            "value": "#ffffff00",
+            "type": "color",
+            "description": "Transparent"
+          }
+        }
       }
     },
     "Border": {
@@ -122,11 +160,6 @@
       "Strong": {
         "value": "#8a94a8",
         "description": "#8a94a8",
-        "type": "color"
-      },
-      "CTA": {
-        "value": "#3440b6",
-        "description": "#3440b6",
         "type": "color"
       },
       "Informative": {
@@ -173,6 +206,44 @@
         "value": "#3440b6",
         "description": "#3440b6",
         "type": "color"
+      },
+      "Button": {
+        "Primary": {
+          "Default": {
+            "value": "#ffffff00",
+            "description": "Transparent",
+            "type": "color"
+          },
+          "Pressed": {
+            "value": "#ffffff00",
+            "description": "Transparent",
+            "type": "color"
+          }
+        },
+        "Secondary": {
+          "Default": {
+            "value": "#3440b6",
+            "description": "#3440b6",
+            "type": "color"
+          },
+          "Pressed": {
+            "value": "#001a73",
+            "description": "#001a73",
+            "type": "color"
+          }
+        },
+        "Tertiary": {
+          "Default": {
+            "value": "#ffffff00",
+            "description": "Transparent",
+            "type": "color"
+          },
+          "Pressed": {
+            "value": "#ffffff00",
+            "description": "Transparent",
+            "type": "color"
+          }
+        }
       }
     },
     "Icon": {
