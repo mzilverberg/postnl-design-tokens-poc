@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 01 Jul 2022 12:48:57 GMT
+ * Generated on Fri, 01 Jul 2022 13:40:39 GMT
  */
 
 :root {
@@ -10,10 +10,16 @@
   --color-text-default: #27324c;
   --color-text-subtle: #66728a;
   --color-text-inverse: #d4d9e3;
-  --color-link-default: #3440b6;
-  --color-link-subtle: #27324c;
-  --color-link-hover: #3440b6;
-  --color-link-pressed: #001a73;
+  --color-text-button-primary-default: #ffffff;
+  --color-text-button-primary-pressed: #ffffff;
+  --color-text-button-secondary-default: #3440b6;
+  --color-text-button-secondary-pressed: #001a73;
+  --color-text-button-tertiary-default: #3440b6;
+  --color-text-button-tertiary-pressed: #001a73;
+  --color-text-link-default: #3440b6;
+  --color-text-link-subtle: #27324c;
+  --color-text-link-hover: #3440b6;
+  --color-text-link-pressed: #001a73;
   --color-background-surface: #ffffff;
   --color-background-default: #f3f4f7;
   --color-background-variant: #f1f2f9;
@@ -139,14 +145,39 @@
   --text-body-label-paragraph-spacing: 0;
   --text-body-label-text-decoration: none;
   --text-body-label-text-case: none;
-  --text-body-cta-font-family: PostNL;
-  --text-body-cta-font-weight: 500;
-  --text-body-cta-line-height: 150%;
-  --text-body-cta-font-size: 16px;
-  --text-body-cta-letter-spacing: 0%;
-  --text-body-cta-paragraph-spacing: 0;
-  --text-body-cta-text-decoration: none;
-  --text-body-cta-text-case: none;
+  --text-hyperlink-default-font-family: PostNL;
+  --text-hyperlink-default-font-weight: 300;
+  --text-hyperlink-default-line-height: 150%;
+  --text-hyperlink-default-font-size: 16px;
+  --text-hyperlink-default-text-decoration: underline;
+  --text-hyperlink-hover-font-family: PostNL;
+  --text-hyperlink-hover-font-weight: 300;
+  --text-hyperlink-hover-line-height: 150%;
+  --text-hyperlink-hover-font-size: 16px;
+  --text-hyperlink-hover-text-decoration: underline;
+  --text-hyperlink-pressed-font-family: PostNL;
+  --text-hyperlink-pressed-font-weight: 300;
+  --text-hyperlink-pressed-line-height: 150%;
+  --text-hyperlink-pressed-font-size: 16px;
+  --text-hyperlink-pressed-text-decoration: underline;
+  --text-cta-default-font-family: PostNL;
+  --text-cta-default-font-weight: 500;
+  --text-cta-default-line-height: 150%;
+  --text-cta-default-font-size: 16px;
+  --text-cta-default-letter-spacing: 0%;
+  --text-cta-default-paragraph-spacing: 0;
+  --text-cta-default-text-decoration: none;
+  --text-cta-default-text-case: none;
+  --text-cta-hover-font-family: PostNL;
+  --text-cta-hover-font-weight: 500;
+  --text-cta-hover-line-height: 150%;
+  --text-cta-hover-text-decoration: underline;
+  --text-cta-hover-font-size: 16px;
+  --text-cta-pressed-font-family: PostNL;
+  --text-cta-pressed-font-weight: 500;
+  --text-cta-pressed-line-height: 150%;
+  --text-cta-pressed-text-decoration: underline;
+  --text-cta-pressed-font-size: 16px;
   --spacing-inner-xxs: 2px;
   --spacing-inner-xs: 4px;
   --spacing-inner-s: 8px;
