@@ -5,6 +5,11 @@ module.exports = {
   name: 'name/postnl',
   transformer: (token) => {
     const regex = /(?<=[a-z])[A-Z]/g;
-    return token.path.join('-').replace(regex, (a, b) => `-${a}`).toLowerCase();
+    const name = token.path.join('-').replace(regex, (a, b) => `-${a}`).toLowerCase();
+    // Append suffix for 'duplicate' text styles.
+    if(token.type === 'typography' && (name.indexOf('hover') >= 0 || name.indexOf('pressed') >= 0)) {
+      return `${name}-decoration`
+    }
+    return name
   }
 }

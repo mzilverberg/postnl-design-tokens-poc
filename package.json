@@ -4,7 +4,7 @@
   "description": "A proof of concept for using design tokens for PostNL. Design tokens are synced to Figma with the Figma tokens plugin, and converted to CSS variables through style dictionary.",
   "main": "build.js",
   "scripts": {
-    "build": "npx token-transformer tokens.json tokens/input.json Core,Semantic Core --expandTypography=true && node build.js"
+    "build": "npx token-transformer tokens.json tokens/input.json Core,Semantic Core && node build.js"
   },
   "repository": {
     "type": "git",
