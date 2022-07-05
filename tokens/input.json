@@ -961,5 +961,41 @@
         "type": "sizing"
       }
     }
+  },
+  "Radius": {
+    "Button": {
+      "Default": {
+        "value": "24px",
+        "type": "borderRadius"
+      },
+      "FocusOutline": {
+        "value": "24px",
+        "type": "borderRadius"
+      }
+    },
+    "FocusOutline": {
+      "value": "2px",
+      "type": "borderRadius"
+    }
+  },
+  "BorderWidth": {
+    "Default": {
+      "value": "1px",
+      "type": "borderWidth"
+    },
+    "FocusOutline": {
+      "value": "2px",
+      "type": "borderWidth"
+    },
+    "Hyperlink": {
+      "Default": {
+        "value": "1px",
+        "type": "borderWidth"
+      },
+      "Hover": {
+        "value": "2px",
+        "type": "borderWidth"
+      }
+    }
   }
 }
