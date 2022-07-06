@@ -1,29 +1,25 @@
 const StyleDictionary = require('style-dictionary');
+const cssTokenNames = require('./transforms/css/postnl-name');
+const cssHexToRgba = require('./transforms/css/hex-to-rgba');
+// const cssTextStyles = require('./transforms/css/text-styles');
 
-// Prevent StyleDictionary from renaming tokens ending with '...3XL' to '...3-xl'.
-// Additionally, split words like 'fontSize' to 'font-size'.
-StyleDictionary.registerTransform({
-  type: 'name',
-  name: 'name/postnl',
-  transformer: (token) => {
-    const regex = /(?<=[a-z])[A-Z]/g;
-    return token.path.join('-').replace(regex, (a, b) => `-${a}`).toLowerCase();
-  }
-})
-
-const PostNLStyleDictionary = StyleDictionary.extend({
-  source: ['tokens/input.json'],
-  platforms: {
-    css: {
-      transformGroup: 'css',
-      buildPath: 'build/',
-      transforms: ['name/postnl'],
-      files: [{
-        destination: '_variables.css',
-        format: 'css/variables'
-      }]
+StyleDictionary
+  // In order for these transforms to work, add their name to the 'transforms' array below.
+  // The name of a transform can be found in the corresponding file.
+  .registerTransform(cssTokenNames)
+  .registerTransform(cssHexToRgba)
+  // .registerTransform(cssTextStyles)
+  .extend({
+    source: ['tokens/input.json'],
+    platforms: {
+      css: {
+        buildPath: 'build/',
+        transforms: ['name/postnl', 'color/hex-to-rgba'/*, 'type/text-styles'*/],
+        files: [{
+          destination: '_variables.css',
+          format: 'css/variables'
+        }]
+      }
     }
-  }
-});
-
-PostNLStyleDictionary.buildAllPlatforms();
+  })
+  .buildAllPlatforms();
