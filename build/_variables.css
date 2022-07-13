@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 13 Jul 2022 12:07:05 GMT
+ * Generated on Wed, 13 Jul 2022 12:11:55 GMT
  */
 
 :root {
@@ -65,6 +65,12 @@
   --color-icon-hover: #3440b6;
   --color-icon-pressed: #001a73;
   --color-icon-selected: #ed7000;
+  --color-icon-button-primary-default: #ffffff;
+  --color-icon-button-primary-pressed: #ffffff;
+  --color-icon-button-secondary-default: #3440b6;
+  --color-icon-button-secondary-pressed: #001a73;
+  --color-icon-button-tertiary-default: #3440b6;
+  --color-icon-button-tertiary-pressed: #001a73;
   --color-others-prominent: #d70036;
   --text-heading-xxl-font-family: PostNL;
   --text-heading-xxl-font-weight: 300;
