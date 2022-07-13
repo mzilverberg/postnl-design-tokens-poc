@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 12 Jul 2022 10:06:56 GMT
+ * Generated on Wed, 13 Jul 2022 07:09:22 GMT
  */
 
 :root {
@@ -137,14 +137,6 @@
   --text-body-s-paragraph-spacing: 0;
   --text-body-s-text-decoration: none;
   --text-body-s-text-case: none;
-  --text-body-label-font-family: PostNL;
-  --text-body-label-font-weight: 400;
-  --text-body-label-line-height: 125%;
-  --text-body-label-font-size: 16px;
-  --text-body-label-letter-spacing: 0%;
-  --text-body-label-paragraph-spacing: 0;
-  --text-body-label-text-decoration: none;
-  --text-body-label-text-case: none;
   --text-hyperlink-default-font-family: PostNL;
   --text-hyperlink-default-font-weight: 300;
   --text-hyperlink-default-line-height: 150%;
@@ -178,6 +170,22 @@
   --text-cta-pressed-line-height: 150%;
   --text-cta-pressed-text-decoration: underline;
   --text-cta-pressed-font-size: 16px;
+  --text-form-label-font-family: PostNL;
+  --text-form-label-font-weight: 400;
+  --text-form-label-line-height: 125%;
+  --text-form-label-font-size: 16px;
+  --text-form-label-letter-spacing: 0%;
+  --text-form-label-paragraph-spacing: 0;
+  --text-form-label-text-decoration: none;
+  --text-form-label-text-case: none;
+  --text-form-error-font-family: PostNL;
+  --text-form-error-font-weight: 400;
+  --text-form-error-line-height: 140%;
+  --text-form-error-font-size: 14px;
+  --text-form-error-letter-spacing: 0%;
+  --text-form-error-paragraph-spacing: 0;
+  --text-form-error-text-decoration: none;
+  --text-form-error-text-case: none;
   --spacing-inner-xxs: 2px;
   --spacing-inner-xs: 4px;
   --spacing-inner-s: 8px;
