@@ -33,6 +33,11 @@
         "description": "#d4d9e3",
         "type": "color"
       },
+      "Error": {
+        "value": "#d70036",
+        "description": "#d70036",
+        "type": "color"
+      },
       "Button": {
         "Primary": {
           "Default": {
