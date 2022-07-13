@@ -339,6 +339,44 @@
         "value": "#ed7000",
         "description": "#ed7000",
         "type": "color"
+      },
+      "Button": {
+        "Primary": {
+          "Default": {
+            "value": "#ffffff",
+            "description": "#ffffff",
+            "type": "color"
+          },
+          "Pressed": {
+            "value": "#ffffff",
+            "description": "#ffffff",
+            "type": "color"
+          }
+        },
+        "Secondary": {
+          "Default": {
+            "value": "#3440b6",
+            "description": "#3440b6",
+            "type": "color"
+          },
+          "Pressed": {
+            "value": "#001a73",
+            "description": "#001a73",
+            "type": "color"
+          }
+        },
+        "Tertiary": {
+          "Default": {
+            "value": "#3440b6",
+            "description": "#3440b6",
+            "type": "color"
+          },
+          "Pressed": {
+            "value": "#001a73",
+            "description": "#001a73",
+            "type": "color"
+          }
+        }
       }
     },
     "Others": {
