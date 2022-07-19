@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 13 Jul 2022 12:15:15 GMT
+ * Generated on Tue, 19 Jul 2022 09:37:56 GMT
  */
 
 :root {
@@ -219,7 +219,9 @@
   --size-medium-illustration-m: 240px;
   --radius-button-default: 24px;
   --radius-button-focus-outline: 24px;
-  --radius-focus-outline: 2px;
+  --radius-form-control-default: 4px;
+  --radius-form-control-focus-outline: 4px;
+  --radius-focus-outline-default: 2px;
   --border-width-default: 1px;
   --border-width-focus-outline: 2px;
   --border-width-hyperlink-default: 1px;
