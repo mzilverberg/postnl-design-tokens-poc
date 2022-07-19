@@ -155,6 +155,11 @@
         "description": "#fcebef",
         "type": "color"
       },
+      "Disabled": {
+        "value": "#f3f4f7",
+        "description": "#f3f4f7",
+        "type": "color"
+      },
       "Button": {
         "Primary": {
           "Default": {

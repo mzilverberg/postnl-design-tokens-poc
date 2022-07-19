@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 19 Jul 2022 09:37:56 GMT
+ * Generated on Tue, 19 Jul 2022 09:44:22 GMT
  */
 
 :root {
@@ -32,6 +32,7 @@
   --color-background-positive: #ebf7ef;
   --color-background-warning: #fff9ec;
   --color-background-negative: #fcebef;
+  --color-background-disabled: #f3f4f7;
   --color-background-button-primary-default: #3440b6;
   --color-background-button-primary-pressed: #001a73;
   --color-background-button-secondary-default: #ffffff;
