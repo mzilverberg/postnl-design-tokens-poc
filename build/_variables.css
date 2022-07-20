@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 20 Jul 2022 13:33:31 GMT
+ * Generated on Wed, 20 Jul 2022 13:58:18 GMT
  */
 
 :root {
@@ -17,6 +17,8 @@
   --color-text-button-secondary-pressed: #001a73;
   --color-text-button-tertiary-default: #3440b6;
   --color-text-button-tertiary-pressed: #001a73;
+  --color-text-icon-button-default: #3440b6;
+  --color-text-icon-button-pressed: #001a73;
   --color-text-link-default: #3440b6;
   --color-text-link-subtle: #27324c;
   --color-text-link-hover: #3440b6;
@@ -39,6 +41,12 @@
   --color-background-button-secondary-pressed: #ffffff;
   --color-background-button-tertiary-default: transparent;
   --color-background-button-tertiary-pressed: transparent;
+  --color-background-icon-button-primary-default: #3440b6;
+  --color-background-icon-button-primary-pressed: #001a73;
+  --color-background-icon-button-secondary-default: #e0effa;
+  --color-background-icon-button-secondary-pressed: #e0effa;
+  --color-background-icon-button-tertiary-default: transparent;
+  --color-background-icon-button-tertiary-pressed: transparent;
   --color-border-default: #d4d9e3;
   --color-border-strong: #8a94a8;
   --color-border-informative: #8dd4f1;
@@ -74,6 +82,12 @@
   --color-icon-button-secondary-pressed: #001a73;
   --color-icon-button-tertiary-default: #3440b6;
   --color-icon-button-tertiary-pressed: #001a73;
+  --color-icon-icon-button-primary-default: #ffffff;
+  --color-icon-icon-button-primary-pressed: #ffffff;
+  --color-icon-icon-button-secondary-default: #3440b6;
+  --color-icon-icon-button-secondary-pressed: #001a73;
+  --color-icon-icon-button-tertiary-default: #3440b6;
+  --color-icon-icon-button-tertiary-pressed: #001a73;
   --color-others-prominent: #d70036;
   --text-heading-xxl-font-family: PostNL;
   --text-heading-xxl-font-weight: 300;
@@ -220,13 +234,10 @@
   --size-illustration-xxl: 120px;
   --size-medium-illustration-s: 204px;
   --size-medium-illustration-m: 240px;
-  --radius-alert-default: 4px;
   --radius-button-default: 24px;
   --radius-button-focus-outline: 24px;
   --radius-form-control-default: 4px;
   --radius-form-control-focus-outline: 4px;
-  --radius-icon-button-default: 32px;
-  --radius-icon-button-focus-outline: 32px;
   --radius-focus-outline-default: 2px;
   --border-width-default: 1px;
   --border-width-focus-outline: 2px;
