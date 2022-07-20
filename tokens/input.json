@@ -1167,6 +1167,16 @@
         "type": "borderRadius"
       }
     },
+    "IconButton": {
+      "Default": {
+        "value": "32px",
+        "type": "borderRadius"
+      },
+      "FocusOutline": {
+        "value": "32px",
+        "type": "borderRadius"
+      }
+    },
     "FocusOutline": {
       "Default": {
         "value": "2px",
