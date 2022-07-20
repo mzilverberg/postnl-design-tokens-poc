@@ -345,6 +345,18 @@
         "description": "#ed7000",
         "type": "color"
       },
+      "Accent": {
+        "Default": {
+          "value": "#ffffff",
+          "description": "#ffffff",
+          "type": "color"
+        },
+        "Inverse": {
+          "value": "#27324c",
+          "description": "#27324c",
+          "type": "color"
+        }
+      },
       "Button": {
         "Primary": {
           "Default": {
