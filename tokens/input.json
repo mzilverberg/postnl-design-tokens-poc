@@ -1059,6 +1059,12 @@
     }
   },
   "Radius": {
+    "Alert": {
+      "Default": {
+        "value": "4px",
+        "type": "borderRadius"
+      }
+    },
     "Button": {
       "Default": {
         "value": "24px",
